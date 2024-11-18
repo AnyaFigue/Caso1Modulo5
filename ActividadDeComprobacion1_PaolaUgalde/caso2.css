@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Color de fondo suave */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2; /* Color azul pastel */
+}
+
+h2 {
+    text-align: center;
+    color: #7ed321; /* Color verde pastel */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #d9d9d9; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados para los inputs */
+}
+
+input:focus {
+    border-color: #4a90e2; /* Borde azul claro al enfocar */
+    outline: none; /* Sin contorno */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #d9d9d9; /* Borde gris claro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f8ff; /* Color de fondo para las celdas */
+}
+
+th {
+    background-color: #e6f7ff; /* Color de fondo para el encabezado de la tabla */
+    color: #333; /* Color de texto del encabezado */
+}
+
+button {
+    padding: 10px;
+    background-color: #4a90e2; /* Color de fondo azul pastel */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados para los botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #357ab8; /* Color más oscuro al pasar el mouse */
+}
